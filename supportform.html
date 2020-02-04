@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Support our animals</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.12.0/css/all.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Support our animals</title>
+
+    <script>
+        var elephant = new Audio();
+        elephant.src = 'audio/elephant.mp3';
+
+        var lion = new Audio();
+        lion.src = 'audio/lion.mp3';
+
+        var leopard = new Audio();
+        leopard.src = 'audio/leopard.wav';
+
+        var buffalo = new Audio();
+        buffalo.src = 'audio/buffalo.mp3';
+
+        var rhino = new Audio();
+        rhino.src = 'audio/rhino.mp3';
+
+        var tribe = new Audio();
+        tribe.src = 'audio/tribe.wav';
+
+        var tribe2 = new Audio();
+        tribe2.src = 'audio/tribe2.wav';
+    </script>
+
+</head>
+
+<body>
+
+    <nav>
+        <ul class="nav sticky-top nav-flex-icons ml-auto ">
+            <li class="nav-item">
+                <a href="./index.html" onmousedown="tribe.play()"> <img src="img/icons/home icon white.png"
+                        alt="..."></a>
+            </li>
+            <li class="nav-item">
+                <a href="./index.html#the5" onmousedown="tribe2.play()"> <img src="img/icons/africa white.png"
+                        alt="..."></a>
+            </li>
+            <li class="nav-item">
+                <a href="./index.html#lion" onmousedown="lion.play()"> <img src="img/icons/lion icon white.png"
+                        alt="..."></a>
+            </li>
+            <li class="nav-item">
+                <a href="./index.html#elephant" onmousedown="elephant.play()"> <img
+                        src="img/icons/elephant icon white.png" alt="..."></a>
+            </li>
+            <li class="nav-item">
+                <a href="./index.html#buffalo" onmousedown="buffalo.play()"> <img src="img/icons/buffalo icon white.png"
+                        alt="..."></a>
+            </li>
+            <li class="nav-item">
+                <a href="./index.html#leopard" onmousedown="leopard.play()"> <img src="img/icons/leopard iconwhite .png"
+                        alt="..."></a>
+            </li>
+            <li class="nav-item">
+                <a href="./index.html#rhinoceros" onmousedown="rhino.play()"> <img src="img/icons/rhino icon white .png"
+                        alt="..."></a>
+            </li>
+            <li class="nav-item">
+                <a href="./index.html#we" onmousedown="rhino.play()"> <img src="img/icons/who icon white .png"
+                        alt="..."></a>
+            </li>
+            <li class="nav-item">
+                <a href="./index.html#support" onmousedown="rhino.play()"> <img src="img/icons/support icon white.png"
+                        alt="..."></a>
+            </li>
+
+        </ul>
+    </nav>
+    <br>
+    <div class="supportformback">
+
+        <div class="typeOfAnimal">
+            <h1> Choose your favorite animal </h1>
+
+            <form action="">
+                <label for="">
+                    <input type="radio" name="animal" value="lion">The African Lion</label>
+                <label for="">
+                    <input type="radio" name="animal" value="elephant">The African Elephant</label>
+                <label for="">
+                    <input type="radio" name="animal" value="buffalo">The buffalo</label>
+                <label for="">
+                    <input type="radio" name="animal" value="leopard">The Leopard</label>
+                <label for="">
+                    <input type="radio" name="animal" value="rhinocero">The Rhinoceros</label>
+
+            </form>
+        </div>
+        <br>
+        <div class="nameAnimal">
+            <h1> choose the name of your animal</h1>
+
+            <form id="saveAnimal" action="">
+                <label for="animal1">
+                    <input type="radio" name="leopard" id="animal1" value="Hya">Leopard Hya</label>
+
+                <label for="animal2">
+                    <input type="radio" name="leopard" id="animal2" value="Loui">Leopard Loui</label>
+
+                <label for="animal3">
+                    <input type="radio" name="leopard" id="animal3" value="Scar">Leopard Scar</label>
+
+                <label for="animal4">
+                    <input type="radio" name="elephant" id="animal4" value="Myro">Elephant Myro</label>
+
+                <label for="animal5">
+                    <input type="radio" name="elephant" id="animal5" value="Ursi">Elephant Ursi</label>
+
+                <label for="animal6">
+                    <input type="radio" name="elephant" id="animal6" value="Kai">Elephant Kai</label>
+
+                <label for="animal7">
+                    <input type="radio" name="buffalo" id="animal7" value="Tido">Buffalo Tido</label>
+
+                <label for="animal8">
+                    <input type="radio" name="buffalo" id="animal8" value="Goly">Buffalo Goly</label>
+
+                <label for="animal9">
+                    <input type="radio" name="buffalo" id="animal9" value="Lao">Buffalo Lao</label>
+
+                <label for="animal10">
+                    <input type="radio" name="lion" id="animal10" value="Darko">Lion Darko</label>
+
+                <label for="animal11">
+                    <input type="radio" name="lion" id="animal11" value="Rhyo">Lion Ryho</label>
+
+                <label for="animal12">
+                    <input type="radio" name="lion" id="animal12" value="Willy>">lion Willy</label>
+
+                <label for="animal13">
+                    <input type="radio" name="rhinocero" id="animal13" value="Dodo">Rhinocero Dodo</label>
+
+                <label for="animal14">
+                    <input type="radio" name="rhinocero" id="animal14" value="Free">Rhinocero Free</label>
+
+                <label for="animal15">
+                    <input type="radio" name="rhinocero" id="animal15" value="Dalla">Rhinocero Dalla</label>
+            </form>
+        </div>
+        <br>
+        <div class="donateMoney">
+            <h1> choose the amount of your donation</h1>
+
+            <form id="money" action="">
+                <label for="money1">
+                    <input type="radio" name="donation" id="money1" value="5$">5$</label>
+
+                <label for="money2">
+                    <input type="radio" name="donation" id="money2" value="10$">10$</label>
+
+                <label for="money3">
+                    <input type="radio" name="donation" id="money3" value="15$">15$</label>
+
+                <label for="money4">
+                    <input type="radio" name="donation" id="money4" value="20$">20$</label>
+
+                <label for="money5">
+                    <input type="radio" name="donation" id="money5" value="25$">25$</label>
+
+            </form>
+        </div>
+        <br>
+
+        <div class="submitbutton">
+
+            <input type="submit" value="send your donation">
+
+        </div>
+        <br>
+        <!-- Footer -->
+        <footer class="page-footer font-small special-color-dark pt-4">
+            <div class="container">
+
+                <i class="fab fa-facebook-square" style="font-size:40px;color:snow;"></i>
+                <i class="fab fa-instagram" style="font-size:40px;color:snow;"></i>
+                <i class="fab fa-twitter-square" style="font-size:40px;color:snow;"></i>
+                <i class="fas fa-envelope-open-text" style="font-size:40px;color:snow;"></i>
+
+            </div>
+
+            <!-- Copyright -->
+            <div class=" footer-copyright text-center py-3">© 2020 Copyright:
+                <a href="https://bvanzeebroeck.be"> bvanzeebroeck.be</a>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

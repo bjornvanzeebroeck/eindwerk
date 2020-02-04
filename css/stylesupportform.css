@@ -1,0 +1,44 @@
+body {
+	background-image: url(../img/big5.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: snow;
+	margin: auto;
+}
+
+.typeOfAnimal {
+	align-items: center;
+	background-color: #666;
+	width: 300px;
+	margin: auto;
+	width: 50%;
+	border: 3px solid snow;
+	padding: 10px;
+}
+
+.nameAnimal {
+	background-color: #666;
+	width: 300px;
+	margin: auto;
+	width: 50%;
+	border: 3px solid snow;
+	padding: 10px;
+}
+
+.donateMoney {
+	background-color: #666;
+	width: 300px;
+	margin: auto;
+	width: 50%;
+	border: 3px solid snow;
+	padding: 10px;
+}
+
+label {
+	display: block;
+}
+
+.submitbutton {
+	color: white;
+}
